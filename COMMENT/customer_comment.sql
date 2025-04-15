@@ -1,0 +1,18 @@
+COMMENT ON COLUMN customer.c_customer_sk IS '顧客キー（主キー、サロゲートキー）';
+COMMENT ON COLUMN customer.c_customer_id IS '顧客ID（業務用の一意な識別子）';
+COMMENT ON COLUMN customer.c_current_cdemo_sk IS '現在の顧客属性（cdemo）キー';
+COMMENT ON COLUMN customer.c_current_hdemo_sk IS '現在の世帯属性（hdemo）キー';
+COMMENT ON COLUMN customer.c_current_addr_sk IS '現在の住所キー（address_dimへの外部キー）';
+COMMENT ON COLUMN customer.c_first_shipto_date_sk IS '最初の配送日（日付ディメンションのキー）';
+COMMENT ON COLUMN customer.c_first_sales_date_sk IS '最初の購入日（日付ディメンションのキー）';
+COMMENT ON COLUMN customer.c_salutation IS '敬称（例：Mr., Ms., Dr.など）';
+COMMENT ON COLUMN customer.c_first_name IS '顧客の名（ファーストネーム）';
+COMMENT ON COLUMN customer.c_last_name IS '顧客の姓（ラストネーム）';
+COMMENT ON COLUMN customer.c_preferred_cust_flag IS '優良顧客フラグ（Y/N）';
+COMMENT ON COLUMN customer.c_birth_day IS '誕生日（日）';
+COMMENT ON COLUMN customer.c_birth_month IS '誕生日（月）';
+COMMENT ON COLUMN customer.c_birth_year IS '誕生日（年）';
+COMMENT ON COLUMN customer.c_birth_country IS '出生国';
+COMMENT ON COLUMN customer.c_login IS '顧客のログイン名（ユーザー名）';
+COMMENT ON COLUMN customer.c_email_address IS '顧客のメールアドレス';
+COMMENT ON COLUMN customer.c_last_review_date IS '直近のレビュー日（日付ディメンションのキー）';
