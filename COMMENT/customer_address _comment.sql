@@ -1,0 +1,13 @@
+COMMENT ON COLUMN customer_address.ca_address_sk IS '住所キー（主キー、他テーブルから参照される）';
+COMMENT ON COLUMN customer_address.ca_address_id IS '住所ID（業務用の一意な識別子）';
+COMMENT ON COLUMN customer_address.ca_street_number IS '番地（例：123など）';
+COMMENT ON COLUMN customer_address.ca_street_name IS '通りの名前（例：Main, Elmなど）';
+COMMENT ON COLUMN customer_address.ca_street_type IS '通りの種類（例：St, Ave, Blvdなど）';
+COMMENT ON COLUMN customer_address.ca_suite_number IS '部屋番号（スイート番号、例：#101）';
+COMMENT ON COLUMN customer_address.ca_city IS '市区町村名';
+COMMENT ON COLUMN customer_address.ca_county IS '郡（または地域区分）';
+COMMENT ON COLUMN customer_address.ca_state IS '州・都道府県名（米国などを想定）';
+COMMENT ON COLUMN customer_address.ca_zip IS '郵便番号';
+COMMENT ON COLUMN customer_address.ca_country IS '国名';
+COMMENT ON COLUMN customer_address.ca_gmt_offset IS 'GMTオフセット（タイムゾーンの補正値）';
+COMMENT ON COLUMN customer_address.ca_location_type IS '地域分類（例：urban, ruralなど）';
