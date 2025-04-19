@@ -1,0 +1,9 @@
+COMMENT ON COLUMN catalog_page.cp_catalog_page_sk IS 'カタログページの一意識別子';
+COMMENT ON COLUMN catalog_page.cp_catalog_page_id IS 'カタログページのID';
+COMMENT ON COLUMN catalog_page.cp_start_date_sk IS 'カタログページの開始日の日付キー';
+COMMENT ON COLUMN catalog_page.cp_end_date_sk IS 'カタログページの終了日の日付キー';
+COMMENT ON COLUMN catalog_page.cp_department IS 'カタログページが所属する部門';
+COMMENT ON COLUMN catalog_page.cp_catalog_number IS 'カタログ番号';
+COMMENT ON COLUMN catalog_page.cp_catalog_page_number IS 'カタログページ番号';
+COMMENT ON COLUMN catalog_page.cp_description IS 'カタログページの詳細説明';
+COMMENT ON COLUMN catalog_page.cp_type IS 'カタログページのタイプ';

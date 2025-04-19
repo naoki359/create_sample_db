@@ -1,0 +1,9 @@
+COMMENT ON COLUMN catalog_page.cp_catalog_page_sk IS 'カタログページキー（主キー、他のテーブルから参照される）';
+COMMENT ON COLUMN catalog_page.cp_catalog_page_id IS 'カタログページID（文字列形式の一意識別子）';
+COMMENT ON COLUMN catalog_page.cp_start_date_sk IS 'ページの有効開始日（date_dimテーブルのキー）';
+COMMENT ON COLUMN catalog_page.cp_end_date_sk IS 'ページの有効終了日（date_dimテーブルのキー）';
+COMMENT ON COLUMN catalog_page.cp_department IS 'カタログ内の部門名（例：エレクトロニクス、家具など）';
+COMMENT ON COLUMN catalog_page.cp_catalog_number IS 'カタログ番号（版数やエディションを識別）';
+COMMENT ON COLUMN catalog_page.cp_catalog_page_number IS 'カタログ内のページ番号';
+COMMENT ON COLUMN catalog_page.cp_description IS 'カタログページの説明文';
+COMMENT ON COLUMN catalog_page.cp_type IS 'カタログページの種類（例：プロモーション、標準ページなど）';

@@ -1,0 +1,14 @@
+COMMENT ON COLUMN warehouse.w_warehouse_sk IS '倉庫の一意識別子（主キー）';
+COMMENT ON COLUMN warehouse.w_warehouse_id IS '倉庫のID';
+COMMENT ON COLUMN warehouse.w_warehouse_name IS '倉庫の名前';
+COMMENT ON COLUMN warehouse.w_warehouse_sq_ft IS '倉庫の面積（平方フィート単位）';
+COMMENT ON COLUMN warehouse.w_street_number IS '倉庫の番地';
+COMMENT ON COLUMN warehouse.w_street_name IS '倉庫の通り名';
+COMMENT ON COLUMN warehouse.w_street_type IS '倉庫の通りの種類（例: Avenue, Street, Roadなど）';
+COMMENT ON COLUMN warehouse.w_suite_number IS '倉庫のスイート番号（該当する場合）';
+COMMENT ON COLUMN warehouse.w_city IS '倉庫の市区町村名';
+COMMENT ON COLUMN warehouse.w_county IS '倉庫の郡名';
+COMMENT ON COLUMN warehouse.w_state IS '倉庫の州または地域';
+COMMENT ON COLUMN warehouse.w_zip IS '倉庫の郵便番号';
+COMMENT ON COLUMN warehouse.w_country IS '倉庫の国名';
+COMMENT ON COLUMN warehouse.w_gmt_offset IS '倉庫のGMTオフセット（標準時との時間差）';

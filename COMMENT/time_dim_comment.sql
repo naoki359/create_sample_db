@@ -1,0 +1,10 @@
+COMMENT ON COLUMN time_dim.t_time_sk IS '時間の一意識別子（主キー）';
+COMMENT ON COLUMN time_dim.t_time_id IS '時間を表す文字列ID（例: "12:30:00"）';
+COMMENT ON COLUMN time_dim.t_time IS '時間（HH:MM:SS形式）';
+COMMENT ON COLUMN time_dim.t_hour IS '時間（0〜23の24時間形式）';
+COMMENT ON COLUMN time_dim.t_minute IS '分（0〜59）';
+COMMENT ON COLUMN time_dim.t_second IS '秒（0〜59）';
+COMMENT ON COLUMN time_dim.t_am_pm IS 'AM/PMの区別（午前または午後）';
+COMMENT ON COLUMN time_dim.t_shift IS 'シフト番号（例: 1, 2, 3などの勤務シフト）';
+COMMENT ON COLUMN time_dim.t_sub_shift IS 'サブシフト（シフト内での細かい区分）';
+COMMENT ON COLUMN time_dim.t_meal_time IS '食事時間（勤務時間帯の中での食事時間）';

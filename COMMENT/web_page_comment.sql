@@ -1,0 +1,14 @@
+COMMENT ON COLUMN web_page.wp_web_page_sk IS 'Webページの一意識別子（主キー）';
+COMMENT ON COLUMN web_page.wp_web_page_id IS 'WebページのID';
+COMMENT ON COLUMN web_page.wp_rec_start_date IS 'Webページのレコード開始日';
+COMMENT ON COLUMN web_page.wp_rec_end_date IS 'Webページのレコード終了日';
+COMMENT ON COLUMN web_page.wp_creation_date_sk IS 'Webページの作成日（日付キー）';
+COMMENT ON COLUMN web_page.wp_access_date_sk IS 'Webページへのアクセス日（日付キー）';
+COMMENT ON COLUMN web_page.wp_autogen_flag IS 'Webページが自動生成されたかどうかを示すフラグ';
+COMMENT ON COLUMN web_page.wp_customer_sk IS 'Webページを訪問した顧客の一意識別子（外部キー）';
+COMMENT ON COLUMN web_page.wp_url IS 'WebページのURL';
+COMMENT ON COLUMN web_page.wp_type IS 'Webページの種類（例: ホームページ、製品ページなど）';
+COMMENT ON COLUMN web_page.wp_char_count IS 'Webページ内の文字数';
+COMMENT ON COLUMN web_page.wp_link_count IS 'Webページ内のリンク数';
+COMMENT ON COLUMN web_page.wp_image_count IS 'Webページ内の画像数';
+COMMENT ON COLUMN web_page.wp_max_ad_count IS 'Webページに表示される広告の最大数';
